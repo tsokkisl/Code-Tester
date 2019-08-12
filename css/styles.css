@@ -1,0 +1,49 @@
+/* styles */
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#left-container {
+  width:50%;
+  float:left;
+  display: flex;
+  flex-flow: column;
+  height:100%;
+}
+
+#right-container {
+  width:50%;
+  display: flex;
+  flex-flow: column;
+  height:100%;
+  float:left;
+  border-left:1px grey solid;
+}
+
+#inputTabContent {
+  height: 90%;
+}
+
+.CodeMirror {
+  height: 600px!important;
+}
+
+iframe {
+  height: 80%;
+  border: none;
+}
+
+#executeButton {
+  float:right;
+  margin-left: 50%!important;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  padding: 1%;
+  width: 80px;
+}
+
+.active {
+  background-color: #ffff3c!important;
+}
